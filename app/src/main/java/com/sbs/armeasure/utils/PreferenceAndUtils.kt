@@ -1,4 +1,8 @@
 package com.sbs.armeasure.utils
 
-class PreferenceAndUtils {
+import android.content.Context
+import javax.inject.Inject
+
+class PreferenceAndUtils @Inject constructor(val context: Context) {
+
 }

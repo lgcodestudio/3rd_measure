@@ -2,6 +2,7 @@ package com.sbs.armeasure
 
 import android.app.Application
 import com.sbs.armeasure.di.component.AppComponent
+import com.sbs.armeasure.di.component.DaggerAppComponent
 import com.sbs.armeasure.di.module.AppModule
 
 class ARMesureApplication : Application(){
