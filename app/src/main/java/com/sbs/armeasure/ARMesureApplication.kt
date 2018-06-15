@@ -19,4 +19,8 @@ class ARMesureApplication : Application(){
                 .build()
     }
 
+    fun getARAppComponent() : AppComponent{
+        return appComponent
+    }
+
 }

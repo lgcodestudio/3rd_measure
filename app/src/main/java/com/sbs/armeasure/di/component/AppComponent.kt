@@ -12,5 +12,4 @@ import javax.inject.Singleton
 interface AppComponent {
     fun context() : Context
     fun preferenceAndUtils() : PreferenceAndUtils
-    fun plus(activityModule : ActivityModule) : ActivityComponent
 }
